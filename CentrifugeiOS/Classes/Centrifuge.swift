@@ -25,7 +25,7 @@ public class Centrifuge {
         client.url = url
         // TODO: Check references cycle
         client.delegate = delegate
-        
+
         return client
     }
 }
