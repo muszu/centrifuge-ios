@@ -6,8 +6,6 @@
 //
 //
 
-import IDZSwiftCommonCrypto
-
 protocol CentrifugeClientMessageBuilder {
     func buildConnectMessage(credentials: CentrifugeCredentials) -> CentrifugeClientMessage
     func buildDisconnectMessage() -> CentrifugeClientMessage

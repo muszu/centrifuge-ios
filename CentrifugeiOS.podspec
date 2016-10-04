@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "CentrifugeiOS"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "Swifty iOS client for Centrifuge."
   s.description      = <<-DESC
   iOS client for Centrifuge https://github.com/centrifugal/Centrifuge. It uses SwiftWebSocket and helpers classes to communicate with Centrifuge server.
@@ -17,5 +17,4 @@ Pod::Spec.new do |s|
   s.source_files = 'CentrifugeiOS/Classes/**/*'
 
   s.dependency 'SwiftWebSocket', '~> 2.6'
-  s.dependency 'IDZSwiftCommonCrypto', '~> 0.7'
 end
